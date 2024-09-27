@@ -1,0 +1,246 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: #fff;
+}
+
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_body  a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.widget_body  a:hover{
+    color: #36a9e1;
+        
+}
+p, label {
+	color: #000;
+	font-weight: 600;
+}
+input {
+	border: 1px solid transparent;
+	border-bottom: 2px solid #4aa9f7;
+	padding: 10px 0px;
+}
+input[type=text], input[type=number], input[type=date], input[type=file], input[type=password] {
+	width: 400px;
+}
+
+.form-container {
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+    align-items: center;
+	
+}
+.form-header p {
+    color: #777;
+    border-bottom: 2px solid #4aa9f7;
+    width: 180px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+	font-weight: 700;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+
+}
+.form-body {
+    display: block;
+	padding: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+	font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+
+.required-field {
+	color: rgb(0, 174, 255);
+}
+.box-input {
+	margin-bottom: 30px;
+}
+
+.block {
+	display: block;
+}
+
+.optional_box {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.optional-list {
+	padding-left: 0;
+}
+
+.optional-list li {
+	list-style: none;
+}
+
+.btn-submit {
+	background-color: #4aa9f7;
+	color: #000;
+	margin-top: 60px;
+	margin-left: 50px;
+	border: 2px solid transparent;
+	width: 150px;
+	height: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: .5s;
+	border-radius: 30px;
+	color: #fff;
+}
+.box-select {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.box-select select {
+    background-color: #4aa9f7;
+    color: #fff;
+    padding: 12px;
+    width: 300px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    margin-top: 20px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: .7s;
+  
+}
+.box-text  {
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    margin-top: 100px;
+}
+.box-text  textarea{
+    text-align: center;
+}
+.btn-submit:hover {
+	background-color: #fff;
+	border-color: #4aa9f7;
+	color:  #4aa9f7;
+}
+.box-select select:hover {
+    background-color: #fff;
+	border-color: #4aa9f7;
+	color:  #4aa9f7;
+    border: 2px solid #4aa9f7;
+}
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+.footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.footer_area {
+    display: flex;
+    padding: 20px;
+    
+}
+.footer_areaitem {
+    flex: 1;
+    color: #FFF;
+}
+.flexColumn {
+    flex-direction: column;
+}
+footer .widget_title_text {
+    color: #fff;
+}
+.footer_copy {
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    margin-top: 30px;
+}
